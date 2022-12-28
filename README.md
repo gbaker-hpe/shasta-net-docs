@@ -15,6 +15,8 @@ This is a working repository to develop a better method of organizing documentat
 
 I use the (klakegg/hugo:0.101.0-alpine container)[https://hub.docker.com/r/klakegg/hugo] for development.  It contains a base installation of Hugo that can be used for builds, hosting a development web server, or interactively working with the Hugo CLI.
 
+These instructs should support (or at least easily adapt to) Windows, MacOS, and Linux.  I'm currently developing on Windows using WSL 2, which should be the hardest use-case.  MacOS and Linux should just work.
+
 ### Pulling the Hugo container image (Alpine)
 
 ```
